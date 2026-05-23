@@ -10,7 +10,7 @@ for the AWS and DevOps training
 | [AWS Billing Alarms](./billing-alarms/) | CloudWatch, SNS | Beginner |
 | [Auto Scaling Group](./auto-scaling-group/) | EC2, ASG, Launch Templates | Beginner |
 | [Static Website S3 + CloudFront](./s3-cloudfront-static-site/) | S3, CloudFront, OAC | Beginner |
-
+| [VPC + EC2 Bastion Host](./LaunchEC2-from-VPC/) | VPC, EC2, IGW, Security Groups | Beginner |
 ## About
 - Cloud Provider: AWS
 - Region: ap-south-1 (Mumbai)
