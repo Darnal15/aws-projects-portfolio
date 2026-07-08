@@ -106,39 +106,44 @@ During the deployment several real-world issues were encountered and resolved:
 
 ## VPC Architecture
 
-<img width="1491" height="802" alt="3tier-VPC" src="https://github.com/user-attachments/assets/2fa7d9af-9c62-45cf-bfc9-ede993a639a8" />
+<img width="1491" height="802" alt="3tier-VPC" src="https://github.com/user-attachments/assets/48a693fb-c6c8-4302-a565-81917a6b0678" />
+.png
 
 ---
 
 ## Web EC2 Instance
 
-<img width="1212" height="783" alt="webec2" src="https://github.com/user-attachments/assets/32065253-8695-42b6-9801-5942414a93c7" />
+![](screenshots/02-web-ec2.png)
 
 ---
 
 ## Application EC2
 
-<img width="1212" height="783" alt="app-ec2" src="https://github.com/user-attachments/assets/0b2f918b-1382-43aa-af30-0166865aa4ad" />
+![](screenshots/03-app-ec2.png)
 
 ---
 
 ## Amazon RDS
 
-<img width="1830" height="879" alt="mSQL-DB" src="https://github.com/user-attachments/assets/3891fc82-042f-4bc1-b410-bfd463175d56" />
+![](screenshots/04-rds.png)
 
 ---
 
 ## Nginx Reverse Proxy
 
-<img width="1677" height="934" alt="weblayer_nginx" src="https://github.com/user-attachments/assets/01662395-f9e2-46f7-b2e8-9f5bf44d5eb5" />
+![](screenshots/05-nginx-success.png)
+
+---
+
+## Flask Application Response
+
+![](screenshots/06-app-response.png)
 
 ---
 
 ## Final Browser Output
 
-<img width="1855" height="722" alt="final-nginx-app" src="https://github.com/user-attachments/assets/34b78fb7-7c1c-484b-9cf8-900636a4638e" />
-
-
+![](screenshots/07-browser-output.png)
 ---
 
 # Skills Demonstrated
