@@ -145,13 +145,12 @@ During the deployment several real-world issues were encountered and resolved:
 ## Web EC2 Instance
 
 <img width="1212" height="783" alt="webec2" src="https://github.com/user-attachments/assets/1a1f400e-a52f-48a5-9530-df7a369f219f" />
-.png
 
 ---
 
 ## Application EC2
 
-![](screenshots/03-app-ec2.png)
+<img width="1212" height="783" alt="app-ec2" src="https://github.com/user-attachments/assets/65b57734-bbde-4e57-93e0-ead374aed996" />
 
 ---
 
