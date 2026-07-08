@@ -14,8 +14,7 @@ The architecture follows AWS networking best practices using public and private 
 
 ## Architecture
 
-![Architecture](<img width="1491" height="802" alt="3tier-VPC" src="https://github.com/user-attachments/assets/c4a1d0e7-e939-4117-b94c-9be0e61879ea" />
-)
+![Architecture](<img width="1536" height="1024" alt="3tierArch" src="https://github.com/user-attachments/assets/17cf1680-41c9-4cea-9213-c33eec25553d" />)
 
 ---
 
