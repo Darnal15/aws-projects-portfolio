@@ -10,38 +10,6 @@ The project demonstrates secure communication between application tiers using pr
 
 <img width="1536" height="1024" alt="3tierArch" src="https://github.com/user-attachments/assets/37583160-21fa-48a1-b592-528b0e9943a5" />
 
----
-
-# Architecture Overview
-
-```
-                    Internet
-                        │
-                        ▼
-               Internet Gateway (IGW)
-                        │
-        ┌──────────────────────────────────┐
-        │            Public Subnet         │
-        │                                  │
-        │  Web EC2                         │
-        │  Amazon Linux                    │
-        │  Nginx Reverse Proxy             │
-        └──────────────────────────────────┘
-                        │
-                Private IP Communication
-                        │
-        ┌──────────────────────────────────┐
-        │           Private Subnet         │
-        │                                  │
-        │  App EC2                         │
-        │  Flask Application               │
-        └──────────────────────────────────┘
-                        │
-        ┌──────────────────────────────────┐
-        │           Private Subnet         │
-        │                                  │
-        │  Amazon RDS (MySQL)              │
-        └──────────────────────────────────┘
 ```
 
 ---
@@ -138,43 +106,38 @@ During the deployment several real-world issues were encountered and resolved:
 
 ## VPC Architecture
 
-![](<img width="1491" height="802" alt="3tier-VPC" src="https://github.com/user-attachments/assets/2fa7d9af-9c62-45cf-bfc9-ede993a639a8" />.png)
+<img width="1491" height="802" alt="3tier-VPC" src="https://github.com/user-attachments/assets/2fa7d9af-9c62-45cf-bfc9-ede993a639a8" />
 
 ---
 
 ## Web EC2 Instance
 
-![](screenshots/02-web-ec2.png)
+<img width="1212" height="783" alt="webec2" src="https://github.com/user-attachments/assets/32065253-8695-42b6-9801-5942414a93c7" />
 
 ---
 
 ## Application EC2
 
-![](screenshots/03-app-ec2.png)
+<img width="1212" height="783" alt="app-ec2" src="https://github.com/user-attachments/assets/0b2f918b-1382-43aa-af30-0166865aa4ad" />
 
 ---
 
 ## Amazon RDS
 
-![](screenshots/04-rds.png)
+<img width="1830" height="879" alt="mSQL-DB" src="https://github.com/user-attachments/assets/3891fc82-042f-4bc1-b410-bfd463175d56" />
 
 ---
 
 ## Nginx Reverse Proxy
 
-![](screenshots/05-nginx-success.png)
-
----
-
-## Flask Application Response
-
-![](screenshots/06-app-response.png)
+<img width="1677" height="934" alt="weblayer_nginx" src="https://github.com/user-attachments/assets/01662395-f9e2-46f7-b2e8-9f5bf44d5eb5" />
 
 ---
 
 ## Final Browser Output
 
-![](screenshots/07-browser-output.png)
+<img width="1855" height="722" alt="final-nginx-app" src="https://github.com/user-attachments/assets/34b78fb7-7c1c-484b-9cf8-900636a4638e" />
+
 
 ---
 
