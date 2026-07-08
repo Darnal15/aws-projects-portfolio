@@ -8,8 +8,41 @@ The project demonstrates secure communication between application tiers using pr
 
 # Architecture
 
-<img width="1536" height="1024" alt="3tierArch" src="https://github.com/user-attachments/assets/37583160-21fa-48a1-b592-528b0e9943a5" />
+![Architecture](<img width="1536" height="1024" alt="3tierArch" src="https://github.com/user-attachments/assets/fc543629-406b-4f1e-aab9-af46499bd4d1" />
+.png)
 
+---
+
+# Architecture Overview
+
+```
+                    Internet
+                        │
+                        ▼
+               Internet Gateway (IGW)
+                        │
+        ┌──────────────────────────────────┐
+        │            Public Subnet         │
+        │                                  │
+        │  Web EC2                         │
+        │  Amazon Linux                    │
+        │  Nginx Reverse Proxy             │
+        └──────────────────────────────────┘
+                        │
+                Private IP Communication
+                        │
+        ┌──────────────────────────────────┐
+        │           Private Subnet         │
+        │                                  │
+        │  App EC2                         │
+        │  Flask Application               │
+        └──────────────────────────────────┘
+                        │
+        ┌──────────────────────────────────┐
+        │           Private Subnet         │
+        │                                  │
+        │  Amazon RDS (MySQL)              │
+        └──────────────────────────────────┘
 ```
 
 ---
@@ -106,8 +139,7 @@ During the deployment several real-world issues were encountered and resolved:
 
 ## VPC Architecture
 
-<img width="1491" height="802" alt="3tier-VPC" src="https://github.com/user-attachments/assets/48a693fb-c6c8-4302-a565-81917a6b0678" />
-.png
+![](screenshots/01-vpc.png)
 
 ---
 
@@ -144,6 +176,7 @@ During the deployment several real-world issues were encountered and resolved:
 ## Final Browser Output
 
 ![](screenshots/07-browser-output.png)
+
 ---
 
 # Skills Demonstrated
