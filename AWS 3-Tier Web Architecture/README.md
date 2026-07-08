@@ -156,25 +156,21 @@ During the deployment several real-world issues were encountered and resolved:
 
 ## Amazon RDS
 
-![](screenshots/04-rds.png)
+<img width="1830" height="879" alt="mSQL-DB" src="https://github.com/user-attachments/assets/a29381ce-12bd-4e5d-bcb7-a0b09af2805f" />
 
 ---
 
 ## Nginx Reverse Proxy
 
-![](screenshots/05-nginx-success.png)
+<img width="1677" height="934" alt="weblayer_nginx" src="https://github.com/user-attachments/assets/d7f676d5-1c9d-4e3a-ab79-cf477a38fd59" />
 
----
-
-## Flask Application Response
-
-![](screenshots/06-app-response.png)
+<img width="1843" height="1070" alt="applayerr-privateSSH" src="https://github.com/user-attachments/assets/1a104234-a643-4ae1-bcf3-5d7e20c7fdb6" />
 
 ---
 
 ## Final Browser Output
 
-![](screenshots/07-browser-output.png)
+<img width="1855" height="722" alt="final-nginx-app" src="https://github.com/user-attachments/assets/0310654c-c6da-448d-8ef2-40acd29e6a7f" />
 
 ---
 
