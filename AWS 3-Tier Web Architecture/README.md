@@ -138,7 +138,7 @@ During the deployment several real-world issues were encountered and resolved:
 
 ## VPC Architecture
 
-![](screenshots/01-vpc.png)
+![](<img width="1491" height="802" alt="3tier-VPC" src="https://github.com/user-attachments/assets/2fa7d9af-9c62-45cf-bfc9-ede993a639a8" />.png)
 
 ---
 
