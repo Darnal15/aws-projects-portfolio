@@ -8,8 +8,7 @@ The project demonstrates secure communication between application tiers using pr
 
 # Architecture
 
-![Architecture](<img width="1536" height="1024" alt="3tierArch" src="https://github.com/user-attachments/assets/fc543629-406b-4f1e-aab9-af46499bd4d1" />
-.png)
+<img width="1536" height="1024" alt="3tierArch" src="https://github.com/user-attachments/assets/fc543629-406b-4f1e-aab9-af46499bd4d1" />
 
 ---
 
