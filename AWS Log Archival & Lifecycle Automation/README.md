@@ -1,10 +1,10 @@
-# 📦 EC2 Log Archiver with Automated S3 Backup
+<img width="1045" height="404" alt="uploaded2s3" src="https://github.com/user-attachments/assets/4f4a32fc-a118-4955-94f0-ce65117c1145" /># EC2 Log Archiver with Automated S3 Backup
 
 Automated log archival solution built on AWS that compresses application logs, uploads them to Amazon S3, and automatically transitions archived logs to Glacier using Lifecycle Policies for long-term cost optimization.
 
 ---
 
-# 📌 Project Overview
+# Project Overview
 
 In production environments, application logs continuously grow and consume storage.
 
@@ -19,7 +19,7 @@ This project automates the complete lifecycle of log management:
 
 ---
 
-# 🏗️ Architecture
+# Architecture
 
 <img width="1536" height="1024" alt="log-arch" src="https://github.com/user-attachments/assets/98a19fd4-b697-49d2-bcf6-d2c51ac1972e" />
 
@@ -37,12 +37,12 @@ This project automates the complete lifecycle of log management:
 
 ---
 
-# 📂 Project Tree
+# Project Tree
 
 <img width="714" height="408" alt="tree" src="https://github.com/user-attachments/assets/c051a4e7-78c0-400a-b19d-fd1e5b7e688a" />
 
 
-# ⚙️ Workflow
+# Workflow
 
 1. Application writes logs to `app.log`
 2. Cron executes `archive_logs.py`
@@ -54,19 +54,19 @@ This project automates the complete lifecycle of log management:
 
 ---
 
-# 📸 Project Walkthrough
+# Project Walkthrough
 
 ## 1️⃣ EC2 Instance
 
 *EC2 instance hosting the application.*
 
-![EC2](images/ec2-instance.png)
+<img width="910" height="793" alt="ec2" src="https://github.com/user-attachments/assets/d3e6e3ae-9b49-4e17-bab7-4d04917a3094" />
 
 ---
 
 ## 2️⃣ Python Application Generating Logs
 
-![Application](images/app-running.png)
+<img width="898" height="727" alt="py-gen-logs" src="https://github.com/user-attachments/assets/a2f32ec4-e12e-4817-9e94-b8fcc9353df4" />
 
 ---
 
@@ -74,7 +74,7 @@ This project automates the complete lifecycle of log management:
 
 Timestamped ZIP archive generated.
 
-![Archive](images/archive-created.png)
+<img width="926" height="268" alt="archive-created" src="https://github.com/user-attachments/assets/581633a2-09d7-47be-ab2b-8e3fcd2cf3cf" />
 
 ---
 
@@ -82,7 +82,7 @@ Timestamped ZIP archive generated.
 
 Successful upload to the S3 bucket.
 
-![S3 Upload](images/s3-upload.png)
+<img width="1045" height="404" alt="uploaded2s3" src="https://github.com/user-attachments/assets/cea66465-b7dc-4cd4-bdea-a74980539097" />
 
 ---
 
@@ -90,7 +90,7 @@ Successful upload to the S3 bucket.
 
 Archived ZIP files stored in S3.
 
-![Bucket](images/s3-bucket.png)
+<img width="1221" height="857" alt="logs-in-s3" src="https://github.com/user-attachments/assets/4cc89ec2-03b5-493f-ab1c-4bbd061bc112" />
 
 ---
 
@@ -98,7 +98,7 @@ Archived ZIP files stored in S3.
 
 Objects automatically transition to Glacier.
 
-![Lifecycle](images/lifecycle.png)
+<img width="910" height="793" alt="glacier" src="https://github.com/user-attachments/assets/e852f524-9b90-422c-9aa3-1e6dc22b17d9" />
 
 ---
 
@@ -106,7 +106,7 @@ Objects automatically transition to Glacier.
 
 Automation configured using Linux Cron.
 
-![Cron](images/cron.png)
+<img width="925" height="206" alt="crontab-l" src="https://github.com/user-attachments/assets/52642459-645f-43b5-a211-c221910f31c0" />
 
 ---
 
@@ -114,7 +114,7 @@ Automation configured using Linux Cron.
 
 Operational logs showing successful executions.
 
-![Upload Log](images/upload-log.png)
+<img width="1045" height="404" alt="uploaded2s3" src="https://github.com/user-attachments/assets/2985e5a7-7d51-474d-90f1-55f7f0c7256f" />
 
 ---
 
