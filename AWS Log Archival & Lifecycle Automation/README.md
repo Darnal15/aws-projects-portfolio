@@ -1,3 +1,5 @@
+# EC2 Log Archiver with Automated S3 Backup
+
 Automated log archival solution built on AWS that compresses application logs, uploads them to Amazon S3, and automatically transitions archived logs to Glacier using Lifecycle Policies for long-term cost optimization.
 
 ---
