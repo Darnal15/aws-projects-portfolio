@@ -27,18 +27,19 @@ This project automates the complete lifecycle of log management:
 
 # Services Used
 
-Amazon EC2 ----> Application Host
-Amazon S3 ---> Archive Storage
-Amazon Glacier ---> Long-term archival
-IAM Role ---> Secure authentication
-Cron ---> Automation Scheduler
-Python ---> Log processing
-boto3 ---> AWS SDK
+1. Amazon EC2 ----> Application Host
+2. Amazon S3 ---> Archive Storage
+3. Amazon Glacier ---> Long-term archival
+4. IAM Role ---> Secure authentication
+5. Cron ---> Automation Scheduler
+6. Python ---> Log processing
+7. boto3 ---> AWS SDK
 
 ---
 
-# 📂 Project Structure
+# 📂 Project Tree
 
+<img width="714" height="408" alt="tree" src="https://github.com/user-attachments/assets/c051a4e7-78c0-400a-b19d-fd1e5b7e688a" />
 ```text
 ec2-log-archiver/
 │
