@@ -40,24 +40,7 @@ This project automates the complete lifecycle of log management:
 # 📂 Project Tree
 
 <img width="714" height="408" alt="tree" src="https://github.com/user-attachments/assets/c051a4e7-78c0-400a-b19d-fd1e5b7e688a" />
-```text
-ec2-log-archiver/
-│
-├── app.py
-├── config.json
-├── requirements.txt
-├── README.md
-├── .gitignore
-│
-├── utils/
-│   └── archive_logs.py
-│
-├── logs/
-│
-└── archive/
-```
 
----
 
 # ⚙️ Workflow
 
