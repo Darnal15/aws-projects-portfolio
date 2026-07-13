@@ -1,4 +1,4 @@
-# AWS Billing Alarms Project
+# billing-alarms
 
 ## Overview
 Created three CloudWatch billing alarms in AWS to monitor 
