@@ -7,7 +7,7 @@ for the AWS and DevOps training
 
 | Project | Services | Level |
 |---|---|---|
-| [🚀 AWS 3-Tier Web Architecture](AWS%203-Tier%20Web%20Architecture/README.md) | Built and deployed a secure three-tier web application on AWS using Amazon VPC, EC2, Nginx, Flask, and Amazon RDS across two Availability Zones. Implemented public/private subnet isolation, NAT Gateway, Security Groups, reverse proxy configuration, and secure MySQL connectivity. |
+| [AWS 3-Tier Web Architecture](AWS%203-Tier%20Web%20Architecture/README.md) |Amazon VPC, EC2, Nginx, Flask, and Amazon RDS across two Availability Zones. Implemented public/private subnet isolation, NAT Gateway, Security Groups, reverse proxy configuration, and secure MySQL connectivity. |
 | [AWS Billing Alarms](./billing-alarms/) | CloudWatch, SNS | Beginner |
 | [Auto Scaling Group](./auto-scaling-group/) | EC2, ASG, Launch Templates | Beginner |
 | [Static Website S3 + CloudFront](./s3-cloudfront-static-site/) | S3, CloudFront, OAC | Beginner |
