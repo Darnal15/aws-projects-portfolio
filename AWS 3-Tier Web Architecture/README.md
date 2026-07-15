@@ -219,13 +219,7 @@ AWS 3-Tier Web Architecture
 
 ---
 
-# 🎯 Resume Summary
-
-Designed and deployed a secure AWS three-tier web application architecture using Amazon VPC, EC2, Nginx, Flask, and Amazon RDS across multiple Availability Zones. Implemented public/private subnet isolation, NAT Gateway, Security Groups, reverse proxy configuration, and secure MySQL connectivity following AWS networking best practices.
-
----
-
-# 👨‍💻 Author
+# Author
 
 **Abhishek (Darnal15)**
 
