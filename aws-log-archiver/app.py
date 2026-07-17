@@ -1,5 +1,6 @@
 import time
 import random
+import boto3
 from datetime import datetime
 
 LOG_MESSAGES = [
