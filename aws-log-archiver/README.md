@@ -93,7 +93,8 @@ python3 archive_logs.py
 
 Example
 
-![Archive Upload](screenshots/03-archive-upload.png)
+![<img width="914" height="227" alt="archive-logs" src="https://github.com/user-attachments/assets/a4c20d9b-ef9f-4f8b-935d-7365be04cf4d" />
+.png)
 
 ---
 
