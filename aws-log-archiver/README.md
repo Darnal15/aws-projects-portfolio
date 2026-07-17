@@ -14,12 +14,6 @@ The automation performs the following workflow:
 
 ---
 
-# Architecture
-
-<img width="1350" height="1165" alt="log-project-architecture" src="https://github.com/user-attachments/assets/1d96752a-6970-4568-98de-e73ff68cec3d" />
-
----
-
 # Features
 
 - Automated log generation
