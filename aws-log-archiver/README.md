@@ -101,7 +101,7 @@ Example
 
 Uploaded ZIP archives are stored in an Amazon S3 bucket.
 
-![S3 Bucket](screenshots/04-s3-bucket.png)
+<img width="1525" height="981" alt="s3-upload" src="https://github.com/user-attachments/assets/6f0742b8-9311-4aa7-a77b-eec6a224fcc9" />
 
 AWS CLI Verification
 
