@@ -93,8 +93,7 @@ python3 archive_logs.py
 
 Example
 
-![<img width="914" height="227" alt="archive-logs" src="https://github.com/user-attachments/assets/a4c20d9b-ef9f-4f8b-935d-7365be04cf4d" />
-.png)
+<img width="914" height="227" alt="archive-logs" src="https://github.com/user-attachments/assets/a4c20d9b-ef9f-4f8b-935d-7365be04cf4d" />
 
 ---
 
@@ -114,7 +113,7 @@ AWS CLI Verification
 
 The archival script is executed automatically every 5 minutes.
 
-![Cron Job](screenshots/05-cron-job.png)
+<img width="1850" height="123" alt="crontab-l" src="https://github.com/user-attachments/assets/85b7db70-e862-4522-a402-ec39b2722624" />
 
 ---
 
@@ -126,7 +125,7 @@ Execution logs are stored in:
 upload.log
 ```
 
-![Upload Log](screenshots/06-upload-log.png)
+<img width="1601" height="223" alt="upload-log" src="https://github.com/user-attachments/assets/38290392-59b8-4c44-a57b-715e37395980" />
 
 ---
 
