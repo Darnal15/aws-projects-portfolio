@@ -1,29 +1,30 @@
-# 🚀 AWS Serverless Task Management API
+# AWS Serverless Task Management API
 
 A fully serverless REST API built using **AWS Lambda**, **Amazon API Gateway**, and **Amazon DynamoDB**. The application performs complete CRUD (Create, Read, Update, Delete) operations on tasks without managing any servers.
 
 ---
 
-## 📖 Project Overview
+## Project Overview
 
 This project demonstrates how to build a scalable serverless backend on AWS using managed services.
 
 ### Features
 
-- ✅ Create Tasks
-- 📋 Retrieve All Tasks
-- ✏️ Update Task Status
-- ❌ Delete Tasks
-- ⚡ Serverless Architecture
-- 🔒 IAM Role-Based Permissions
-- 📈 Highly Scalable
+- Create Tasks
+- Retrieve All Tasks
+- Update Task Status
+- Delete Tasks
+- Serverless Architecture
+- IAM Role-Based Permissions
+- Highly Scalable
 
 ---
 
-# 🏗️ Architecture
+#  Architecture
 
 <p align="center">
-  <img src="architecture.png" width="900">
+  <<img width="1536" height="1024" alt="api-arch" src="https://github.com/user-attachments/assets/93847c71-fd4a-4afc-810a-eb9eed510384" />
+.png" width="900">
 </p>
 
 ---
