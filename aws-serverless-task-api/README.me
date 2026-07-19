@@ -1,51 +1,46 @@
-# 🚀 AWS Serverless Task Management API
+# AWS Serverless Task Management API
 
-A serverless REST API built using AWS Lambda, API Gateway, and DynamoDB to manage tasks without provisioning or managing servers.
-
----
-
-## 📌 Project Overview
-
-This project demonstrates how to build a scalable serverless application on AWS.
-
-The API allows users to:
-
--  Create a task
--  Retrieve all tasks
--  Update task status
--  Delete a task
-
-The entire backend is powered by managed AWS services.
+A fully serverless REST API built using **AWS Lambda**, **Amazon API Gateway**, and **Amazon DynamoDB**. The application performs complete CRUD (Create, Read, Update, Delete) operations on tasks without managing any servers.
 
 ---
 
-## Architecture
+## Project Overview
 
-```
-Client (Postman)
-        │
-        ▼
-API Gateway
-        │
-        ▼
-AWS Lambda
-        │
-        ▼
-Amazon DynamoDB
-```
+This project demonstrates how to build a scalable serverless backend on AWS using managed services.
 
----
+### Features
 
-## AWS Services Used
-
-- AWS Lambda
-- Amazon API Gateway
-- Amazon DynamoDB
-- AWS IAM
+-  Create Tasks
+-  Retrieve All Tasks
+-  Update Task Status
+-  Delete Tasks
+-  Serverless Architecture
+-  IAM Role-Based Permissions
+-  Highly Scalable
 
 ---
 
-## Project Structure
+# Architecture
+
+<p align="center">
+  <.png" width="900">
+</p>
+
+---
+
+# AWS Services Used
+
+| Service | Purpose |
+|----------|---------|
+| AWS Lambda | Business Logic |
+| Amazon API Gateway | REST API |
+| Amazon DynamoDB | NoSQL Database |
+| AWS IAM | Permissions |
+| Amazon CloudWatch | Logs & Monitoring |
+
+---
+
+# Project Structure
 
 ```
 aws-serverless-task-api/
@@ -57,102 +52,183 @@ aws-serverless-task-api/
 │   └── delete-task.py
 │
 ├── screenshots/
+│   ├── api-gateway.png
+│   ├── lambda-functions.png
+│   ├── dynamodb-table.png
+│   ├── postman-post.png
+│   ├── postman-get.png
+│   ├── postman-put.png
+│   └── postman-delete.png
+│
 ├── architecture.png
 └── README.md
 ```
 
 ---
 
-## API Endpoints
+# API Endpoints
 
 | Method | Endpoint | Description |
 |---------|----------|-------------|
-| POST | /tasks | Create a new task |
-| GET | /tasks | Retrieve all tasks |
-| PUT | /tasks | Update task status |
-| DELETE | /tasks | Delete a task |
+| POST | `/tasks` | Create a Task |
+| GET | `/tasks` | Retrieve All Tasks |
+| PUT | `/tasks` | Update Task Status |
+| DELETE | `/tasks` | Delete Task |
 
 ---
 
-##  Sample Request (POST)
+# Sample Requests
+
+## Create Task
+
+### POST `/tasks`
 
 ```json
 {
+  "title": "Deploy Nginx",
+  "status": "Pending"
+}
+```
+
+Response
+
+```json
+{
+  "message": "Task created successfully",
+  "task": {
+    "taskID": "41c4dfc4-8787-4454-97af-8bbff4636d16",
     "title": "Deploy Nginx",
     "status": "Pending"
-}
-```
-
-### Response
-
-```json
-{
-    "message": "Task created successfully",
-    "task": {
-        "taskID": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
-        "title": "Deploy Nginx",
-        "status": "Pending"
-    }
+  }
 }
 ```
 
 ---
 
-##  Sample Request (PUT)
+## Update Task
+
+### PUT `/tasks`
 
 ```json
 {
-    "taskID": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+  "taskID": "41c4dfc4-8787-4454-97af-8bbff4636d16",
+  "status": "Completed"
+}
+```
+
+---
+
+## Delete Task
+
+### DELETE `/tasks`
+
+```json
+{
+  "taskID": "41c4dfc4-8787-4454-97af-8bbff4636d16"
+}
+```
+
+---
+
+## Get Tasks
+
+### GET `/tasks`
+
+Returns
+
+```json
+[
+  {
+    "taskID": "...",
+    "title": "Deploy Nginx",
     "status": "Completed"
-}
+  }
+]
 ```
 
 ---
 
-##  Sample Request (DELETE)
+# Screenshots
 
-```json
-{
-    "taskID": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
-}
-```
+## API Gateway
+
+![.png)
 
 ---
 
-## Screenshots
+## Lambda Functions
 
-- API Gateway Resources
-- DynamoDB Table
-- Lambda Functions
-- Postman POST request
-- Postman GET request
-- Postman PUT request
-- Postman DELETE request
+![Lambda Functions](screenshots/lambda-functions.png)
 
 ---
 
-## Features
+## DynamoDB Table
 
-- Fully Serverless
-- RESTful API
+![DynamoDB](screenshots/dynamodb-table.png)
+
+---
+
+## Create Task (POST)
+
+![POST](screenshots/postman-post.png)
+
+---
+
+## Retrieve Tasks (GET)
+
+![GET](screenshots/postman-get.png)
+
+---
+
+## Update Task (PUT)
+
+![PUT](screenshots/postman-put.png)
+
+---
+
+## Delete Task (DELETE)
+
+![DELETE](screenshots/postman-delete.png)
+
+---
+
+# Deployment Steps
+
+1. Create a DynamoDB table (`CloudTasks`)
+2. Create Lambda functions for CRUD operations
+3. Configure IAM permissions for DynamoDB access
+4. Create REST API in API Gateway
+5. Integrate each endpoint with the corresponding Lambda function
+6. Deploy the API
+7. Test using Postman
+
+---
+
+# Skills Demonstrated
+
+- AWS Lambda
+- Amazon API Gateway
+- Amazon DynamoDB
+- IAM Roles & Policies
+- REST API Development
+- Python (Boto3)
+- JSON Handling
 - CRUD Operations
-- No servers to manage
-- Pay-per-request architecture
-- Easy to scale
+- Serverless Computing
+- API Testing with Postman
 
 ---
 
-## What I Learned
+# Learning Outcomes
 
-During this project I gained hands-on experience with:
+Through this project, I gained practical experience in:
 
-- Building serverless applications on AWS
-- Creating REST APIs using API Gateway
-- Writing Lambda functions in Python
-- Using DynamoDB for NoSQL storage
-- Managing IAM Roles and Permissions
+- Designing serverless architectures
+- Building REST APIs on AWS
+- Managing NoSQL databases with DynamoDB
+- Configuring IAM permissions securely
+- Debugging Lambda functions using CloudWatch Logs
 - Testing APIs using Postman
-- Debugging AWS services using CloudWatch Logs
 
 ---
 
