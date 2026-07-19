@@ -22,10 +22,7 @@ This project demonstrates how to build a scalable serverless backend on AWS usin
 
 #  Architecture
 
-<p align="center">
-  <<img width="1536" height="1024" alt="api-arch" src="https://github.com/user-attachments/assets/93847c71-fd4a-4afc-810a-eb9eed510384" />
-.png" width="900">
-</p>
+<img width="1536" height="1024" alt="api-arch" src="https://github.com/user-attachments/assets/93847c71-fd4a-4afc-810a-eb9eed510384" />
 
 ---
 
