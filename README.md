@@ -15,6 +15,7 @@ for the AWS and DevOps training
 | [Auto Scaling Group](./auto-scaling-group/) | Configure automatic scaling of EC2 instances using Launch Templates and Auto Scaling Groups. | EC2, ASG, Launch Templates | Beginner |
 | [Static Website S3 + CloudFront](./s3-cloudfront-static-site/) | Host a static website using Amazon S3 and distribute it globally with CloudFront. | S3, CloudFront, OAC | Beginner |
 | [VPC + EC2 Bastion Host](./LaunchEC2-from-VPC/) | Launch and secure an EC2 instance inside a custom VPC with Internet Gateway and Security Groups. | VPC, EC2, IGW, Security Groups | Beginner |
+| [AWS Serverless Task Management API](./aws-serverless-task-api/) | Built a fully serverless REST API using AWS Lambda, API Gateway, and DynamoDB with complete CRUD functionality (Create, Read, Update, Delete). Tested endpoints using Postman and secured access with IAM roles. | AWS Lambda, API Gateway, DynamoDB, IAM, Python, Postman | Intermediate |
 
 ## About
 - Cloud Provider: AWS
