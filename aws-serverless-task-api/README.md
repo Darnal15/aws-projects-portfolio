@@ -26,7 +26,7 @@ This project demonstrates how to build a scalable serverless backend on AWS usin
 
 ---
 
-# ☁️ AWS Services Used
+# AWS Services Used
 
 | Service | Purpose |
 |----------|---------|
@@ -38,7 +38,7 @@ This project demonstrates how to build a scalable serverless backend on AWS usin
 
 ---
 
-# 📂 Project Structure
+# Project Structure
 
 ```
 aws-serverless-task-api/
@@ -64,7 +64,7 @@ aws-serverless-task-api/
 
 ---
 
-# 🔗 API Endpoints
+# API Endpoints
 
 | Method | Endpoint | Description |
 |---------|----------|-------------|
@@ -75,7 +75,7 @@ aws-serverless-task-api/
 
 ---
 
-# 📨 Sample Requests
+# Sample Requests
 
 ## Create Task
 
@@ -146,51 +146,51 @@ Returns
 
 ---
 
-# 📸 Screenshots
+# Screenshots
 
 ## API Gateway
 
-![API Gateway](screenshots/api-gateway.png)
+<img width="1314" height="839" alt="api-resource" src="https://github.com/user-attachments/assets/589e2b7d-f706-413e-9b5a-eec37b91b3b0" />
 
 ---
 
 ## Lambda Functions
 
-![Lambda Functions](screenshots/lambda-functions.png)
+<img width="1848" height="883" alt="lambda" src="https://github.com/user-attachments/assets/3db931d2-8918-47f7-917b-fd82e2718102" />
 
 ---
 
 ## DynamoDB Table
 
-![DynamoDB](screenshots/dynamodb-table.png)
+<img width="1848" height="883" alt="dynamo" src="https://github.com/user-attachments/assets/79144490-f126-47fd-9312-90b5d4b46356" />
 
 ---
 
 ## Create Task (POST)
 
-![POST](screenshots/postman-post.png)
+<img width="1517" height="950" alt="postman-post" src="https://github.com/user-attachments/assets/09774659-91ad-4c58-a442-d4f855dbdf74" />
 
 ---
 
 ## Retrieve Tasks (GET)
 
-![GET](screenshots/postman-get.png)
+<img width="1517" height="950" alt="postman-get" src="https://github.com/user-attachments/assets/73b09fb9-618e-4eca-a996-44dd0cf749b8" />
 
 ---
 
 ## Update Task (PUT)
 
-![PUT](screenshots/postman-put.png)
+<img width="1518" height="949" alt="postman-update" src="https://github.com/user-attachments/assets/6d3a0fa3-2081-4ccb-86ea-c5e35775fb13" />
 
 ---
 
 ## Delete Task (DELETE)
 
-![DELETE](screenshots/postman-delete.png)
+<img width="1835" height="957" alt="postman-del" src="https://github.com/user-attachments/assets/47537c52-52d8-4bda-8ea3-06b0146a3b18" />
 
 ---
 
-# 🚀 Deployment Steps
+# Deployment Steps
 
 1. Create a DynamoDB table (`CloudTasks`)
 2. Create Lambda functions for CRUD operations
@@ -202,7 +202,7 @@ Returns
 
 ---
 
-# 📚 Skills Demonstrated
+# Skills Demonstrated
 
 - AWS Lambda
 - Amazon API Gateway
@@ -217,7 +217,7 @@ Returns
 
 ---
 
-# 🎯 Learning Outcomes
+# Learning Outcomes
 
 Through this project, I gained practical experience in:
 
@@ -230,12 +230,10 @@ Through this project, I gained practical experience in:
 
 ---
 
-## 👤 Author
+## Author
 
 **Abhishek Darnal**
 
 GitHub: https://github.com/Darnal15
 
 ---
-
-⭐ If you found this project useful, consider giving it a star!****
