@@ -1,0 +1,163 @@
+# 🚀 AWS Serverless Task Management API
+
+A serverless REST API built using AWS Lambda, API Gateway, and DynamoDB to manage tasks without provisioning or managing servers.
+
+---
+
+## 📌 Project Overview
+
+This project demonstrates how to build a scalable serverless application on AWS.
+
+The API allows users to:
+
+-  Create a task
+-  Retrieve all tasks
+-  Update task status
+-  Delete a task
+
+The entire backend is powered by managed AWS services.
+
+---
+
+## Architecture
+
+```
+Client (Postman)
+        │
+        ▼
+API Gateway
+        │
+        ▼
+AWS Lambda
+        │
+        ▼
+Amazon DynamoDB
+```
+
+---
+
+## AWS Services Used
+
+- AWS Lambda
+- Amazon API Gateway
+- Amazon DynamoDB
+- AWS IAM
+
+---
+
+## Project Structure
+
+```
+aws-serverless-task-api/
+│
+├── lambda/
+│   ├── create-task.py
+│   ├── get-tasks.py
+│   ├── update-task.py
+│   └── delete-task.py
+│
+├── screenshots/
+├── architecture.png
+└── README.md
+```
+
+---
+
+## API Endpoints
+
+| Method | Endpoint | Description |
+|---------|----------|-------------|
+| POST | /tasks | Create a new task |
+| GET | /tasks | Retrieve all tasks |
+| PUT | /tasks | Update task status |
+| DELETE | /tasks | Delete a task |
+
+---
+
+##  Sample Request (POST)
+
+```json
+{
+    "title": "Deploy Nginx",
+    "status": "Pending"
+}
+```
+
+### Response
+
+```json
+{
+    "message": "Task created successfully",
+    "task": {
+        "taskID": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+        "title": "Deploy Nginx",
+        "status": "Pending"
+    }
+}
+```
+
+---
+
+##  Sample Request (PUT)
+
+```json
+{
+    "taskID": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
+    "status": "Completed"
+}
+```
+
+---
+
+##  Sample Request (DELETE)
+
+```json
+{
+    "taskID": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+}
+```
+
+---
+
+## Screenshots
+
+- API Gateway Resources
+- DynamoDB Table
+- Lambda Functions
+- Postman POST request
+- Postman GET request
+- Postman PUT request
+- Postman DELETE request
+
+---
+
+## Features
+
+- Fully Serverless
+- RESTful API
+- CRUD Operations
+- No servers to manage
+- Pay-per-request architecture
+- Easy to scale
+
+---
+
+## What I Learned
+
+During this project I gained hands-on experience with:
+
+- Building serverless applications on AWS
+- Creating REST APIs using API Gateway
+- Writing Lambda functions in Python
+- Using DynamoDB for NoSQL storage
+- Managing IAM Roles and Permissions
+- Testing APIs using Postman
+- Debugging AWS services using CloudWatch Logs
+
+---
+
+## Author
+
+**Abhishek Darnal**
+
+GitHub: https://github.com/Darnal15
